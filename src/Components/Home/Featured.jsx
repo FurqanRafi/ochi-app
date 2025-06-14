@@ -28,8 +28,8 @@ const Featured = () => {
                         onHoverStart={() => handleHover(0)}
                         onHoverEnd={() => handleHoverEnd(0)}
                         className="cardContainer relative w-full lg:h-[75vh] ">
-                        <div className='absolute text-amber-300 font-[Neue Montreal] text-9xl font-semibold z-[9] leading-none tracking-tighter uppercase left-full top-1/2 -translate-x-1/2 -translate-y-1/2 '>
-                            <h1 className='absolute flex  overflow-hidden text-amber-300 font-[Neue Montreal] text-8xl font-md text-center z-[9] leading-none tracking-tighter uppercase right-full top-1/2 translate-x-1/2 -translate-y-1/2 '>
+                        <div className='  absolute text-amber-300 font-[Neue Montreal] text-9xl font-semibold z-[9] leading-none tracking-tighter uppercase left-full top-1/2 -translate-x-1/2 -translate-y-1/2 '>
+                        <h1 className='hidden md:flex absolute overflow-hidden text-amber-300 font-[Neue Montreal] text-8xl font-md text-center z-[9] leading-none tracking-tighter uppercase right-full top-1/2 translate-x-1/2 -translate-y-1/2 '>
                                 {"SALIENCE LAB".split('').map((item, index) =>
                                     <motion.span
                                         initial={{ y: '100%' }}
@@ -52,7 +52,7 @@ const Featured = () => {
                     <motion.div onHoverStart={() => handleHover(1)}
                         onHoverEnd={() => handleHoverEnd(1)} className="cardContainer relative lg:h-[75vh] ">
                         <div className="card  w-full h-full lg:rounded-4xl overflow-hidden">
-                            <h1 className='absolute flex overflow-hidden text-amber-300 font-[Neue Montreal] text-8xl font-bold text-center z-[9] leading-none tracking-tighter uppercase right-full top-1/2 translate-x-1/2 -translate-y-1/2 '>
+                            <h1 className='hidden md:flex absolute overflow-hidden text-amber-300 font-[Neue Montreal] text-8xl font-bold text-center z-[9] leading-none tracking-tighter uppercase right-full top-1/2 translate-x-1/2 -translate-y-1/2 '>
                                 {"CardBoard Spaceship".split('').map((item, index) => <motion.span
                                     initial={{ y: '100%' }}
                                     animate={cards[1]}
@@ -74,7 +74,7 @@ const Featured = () => {
                     <motion.div onHoverStart={() => handleHover(2)}
                         onHoverEnd={() => handleHoverEnd(2)}className="cardContainer relative w-full lg:h-[75vh] ">
                         <div className='absolute text-amber-300 font-[Neue Montreal] text-9xl text-center font-semibold z-[9] leading-none tracking-tighter uppercase left-full top-1/2 -translate-x-1/2 -translate-y-1/2 '>
-                            <h1 className='absolute flex overflow-hidden text-amber-300 font-[Neue Montreal] text-8xl font-md  z-[9] leading-none tracking-tighter uppercase right-full top-1/2 translate-x-1/2 -translate-y-1/2 '>
+                            <h1 className='hidden md:flex absolute  overflow-hidden text-amber-300 font-[Neue Montreal] text-8xl font-md  z-[9] leading-none tracking-tighter uppercase right-full top-1/2 translate-x-1/2 -translate-y-1/2 '>
                                 {"AH2 & Matt Horn".split('').map((item, index) => <motion.span
                                     initial={{ y: '100%' }}
                                     animate={cards[2]}
@@ -95,7 +95,7 @@ const Featured = () => {
                     <motion.div onHoverStart={() => handleHover(3)}
                         onHoverEnd={() => handleHoverEnd(3)} className="cardContainer relative lg:h-[75vh] ">
                         <div className="card w-full h-full lg:rounded-4xl overflow-hidden">
-                            <h1 className='absolute flex overflow-hidden text-amber-300 font-[Neue Montreal] text-8xl font-bold  z-[9] leading-none tracking-tighter uppercase right-full top-1/2 translate-x-1/2 -translate-y-1/2 '>
+                            <h1 className='hidden md:flex absolute overflow-hidden text-amber-300 font-[Neue Montreal] text-8xl font-bold  z-[9] leading-none tracking-tighter uppercase right-full top-1/2 translate-x-1/2 -translate-y-1/2 '>
                                 {"Fyde".split('').map((item, index) => <motion.span
                                     initial={{ y: '100%' }}
                                     animate={cards[3]}

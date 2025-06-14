@@ -13,7 +13,7 @@ const Header = () => {
     const navItems = ["Services", "Our Work", "Insights", "About Us", "Contact Us"];
 
     return (
-        <header className="fixed w-full py-4 md:py-5 backdrop-blur-md bg-#f2f2f2/70 shadow-md">
+        <header className="fixed w-full  py-4 md:py-5 backdrop-blur-md bg-[#f2f2f2]/70 shadow-md">
             <div className="flex Mycontainer1  items-center justify-between">
                 {/* Logo */}
                 <Link href="/">
@@ -48,8 +48,8 @@ const Header = () => {
 
             {/* Mobile Navigation Drawer */}
             {menuOpen && (
-                <div className="fixed inset-0 bg-white z-[998] px-6 py-6 flex flex-col">
-                    <div className="flex justify-between items-center mb-10">
+                <div className="fixed inset-0 bg-white z-[998] flex flex-col">
+                    <div className="flex  justify-between items-center mb-10">
                         <Link href="/">
                             <div className="block w-[60px] h-auto cursor-pointer" onClick={closeMenu}>
                                 <svg width="72" height="30" viewBox="0 0 72 30" fill="none" xmlns="http://www.w3.org/2000/svg">
