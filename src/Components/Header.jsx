@@ -13,8 +13,8 @@ const Header = () => {
     const navItems = ["Services", "Our Work", "Insights", "About Us", "Contact Us"];
 
     return (
-        <header className="fixed w-full px-6 md:px-12 lg:px-20 py-4 md:py-5 backdrop-blur-md bg-#f2f2f2/70 shadow-md">
-            <div className="flex Mycontainer  items-center justify-between">
+        <header className="fixed w-full py-4 md:py-5 backdrop-blur-md bg-#f2f2f2/70 shadow-md">
+            <div className="flex Mycontainer1  items-center justify-between">
                 {/* Logo */}
                 <Link href="/">
                     <div className="block w-[72px] h-auto cursor-pointer">
