@@ -10,7 +10,7 @@ const Eyes = () => {
       setIsDesktop(window.innerWidth >= 768);
     };
 
-    handleResize();
+    handleResize(); // Initial check
     window.addEventListener('resize', handleResize);
 
     const handleMouseMove = (e) => {
@@ -33,11 +33,11 @@ const Eyes = () => {
   }, [isDesktop]);
 
   return (
-    <div className='eyes w-full Mycontainer overflow-hidden '>
+    <div className='eyes w-full overflow-hidden'>
       <div
         data-scroll
         data-scroll-speed='-.5'
-        className='relative w-full Mycontainer1  mx-auto h-[60vh] md:h-screen bg-cover bg-center rounded-xl overflow-hidden bg-[url(https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg)] py-10 md:py-0'
+        className='relative w-full h-[60vh] md:h-screen bg-cover bg-center bg-[url(https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg)] px-5 py-10 md:py-0 md:px-0'
       >
         <div className='flex items-center justify-center gap-6 sm:gap-10 absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full sm:w-2/3 lg:w-1/3'>
           
