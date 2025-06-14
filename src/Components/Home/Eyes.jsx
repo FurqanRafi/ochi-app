@@ -64,7 +64,7 @@ const Eyes = () => {
                 }}
                 className='line absolute top-1/2 left-1/2 w-full h-10'
               >
-                <div className='w-4 sm:w-5 md:w-6 h-4 sm:h-5 md:h-6 rounded-full bg-zinc-100'></div>
+                <div className='w-4 sm:w-5 md:w-6 h-4 sm:h-5 md:h-6 rounded-full bg-white'></div>
               </div>
             </div>
           </div>
