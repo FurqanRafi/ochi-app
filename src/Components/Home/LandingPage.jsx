@@ -17,7 +17,7 @@ const LandingPage = () => {
                                     initial={{ width: '0' }}
                                     animate={{ width: '8vw' }}
                                     transition={{ ease: [0.76, 0, 0.24, 1], duration: 1 }}
-                                    className='w-[35vw] sm:w-[25vw] md:w-[15vw] lg:w-[8.3vw] h-[10vw] sm:h-[8vw] md:h-[6vw] lg:h-[5.5vw] relative top-[-1.4vw] sm:top-[-1vw] md:top-[-0.6vw] lg:top-[-0.4vw] rounded-md'>
+                                    className='w-[35vw] sm:w-[25vw] md:w-[15vw] lg:w-[8.3vw] h-[10vw] sm:h-[8vw] md:h-[6vw] lg:h-[5vw] relative top-[-1.4vw] sm:top-[-1vw] md:top-[-0.6vw] lg:top-[-0.9vw] rounded-md'>
                                     <img
                                         className='rounded-md bg-center bg-cover w-full h-full object-cover'
                                         src="https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg"
