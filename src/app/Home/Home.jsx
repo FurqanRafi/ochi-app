@@ -2,6 +2,7 @@ import About from '@/Components/Home/About'
 import Eyes from '@/Components/Home/Eyes'
 import Featured from '@/Components/Home/Featured'
 
+
 import LandingPage from '@/Components/Home/LandingPage'
 
 import Marquee from '@/Components/Home/Marquee'
@@ -15,6 +16,7 @@ const Home = () => {
         <About />
         <Eyes />
         <Featured />
+        
       
     </div>
   )

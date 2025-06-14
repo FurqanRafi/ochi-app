@@ -29,9 +29,10 @@ const Featured = () => {
                         onHoverEnd={() => handleHoverEnd(0)}
                         className="cardContainer relative w-full lg:h-[75vh] ">
                         <div className='  absolute text-amber-300 font-[Neue Montreal] text-9xl font-semibold z-[9] leading-none tracking-tighter uppercase left-full top-1/2 -translate-x-1/2 -translate-y-1/2 '>
-                        <h1 className='hidden md:flex absolute overflow-hidden text-amber-300 font-[Neue Montreal] text-8xl font-md text-center z-[9] leading-none tracking-tighter uppercase right-full top-1/2 translate-x-1/2 -translate-y-1/2 '>
+                            <h1 className='hidden md:flex absolute overflow-hidden text-amber-300 font-[Neue Montreal] text-8xl font-md text-center z-[9] leading-none tracking-tighter uppercase right-full top-1/2 translate-x-1/2 -translate-y-1/2 '>
                                 {"SALIENCE LAB".split('').map((item, index) =>
                                     <motion.span
+                                        key={index}
                                         initial={{ y: '100%' }}
                                         animate={cards[0]}
                                         transition={{ ease: [0.83, 0, 0.17, 1], delay: index * .05 }}
@@ -54,6 +55,7 @@ const Featured = () => {
                         <div className="card  w-full h-full lg:rounded-4xl overflow-hidden">
                             <h1 className='hidden md:flex absolute overflow-hidden text-amber-300 font-[Neue Montreal] text-8xl font-bold text-center z-[9] leading-none tracking-tighter uppercase right-full top-1/2 translate-x-1/2 -translate-y-1/2 '>
                                 {"CardBoard Spaceship".split('').map((item, index) => <motion.span
+                                    key={index}
                                     initial={{ y: '100%' }}
                                     animate={cards[1]}
                                     transition={{ ease: [0.83, 0, 0.17, 1], delay: index * .05 }}
@@ -72,10 +74,11 @@ const Featured = () => {
                             AH2 & Matt Horn</h1>
                     </div>
                     <motion.div onHoverStart={() => handleHover(2)}
-                        onHoverEnd={() => handleHoverEnd(2)}className="cardContainer relative w-full lg:h-[75vh] ">
+                        onHoverEnd={() => handleHoverEnd(2)} className="cardContainer relative w-full lg:h-[75vh] ">
                         <div className='absolute text-amber-300 font-[Neue Montreal] text-9xl text-center font-semibold z-[9] leading-none tracking-tighter uppercase left-full top-1/2 -translate-x-1/2 -translate-y-1/2 '>
                             <h1 className='hidden md:flex absolute  overflow-hidden text-amber-300 font-[Neue Montreal] text-8xl font-md  z-[9] leading-none tracking-tighter uppercase right-full top-1/2 translate-x-1/2 -translate-y-1/2 '>
                                 {"AH2 & Matt Horn".split('').map((item, index) => <motion.span
+                                    key={index}
                                     initial={{ y: '100%' }}
                                     animate={cards[2]}
                                     transition={{ ease: [0.83, 0, 0.17, 1], delay: index * .05 }}
@@ -97,6 +100,7 @@ const Featured = () => {
                         <div className="card w-full h-full lg:rounded-4xl overflow-hidden">
                             <h1 className='hidden md:flex absolute overflow-hidden text-amber-300 font-[Neue Montreal] text-8xl font-bold  z-[9] leading-none tracking-tighter uppercase right-full top-1/2 translate-x-1/2 -translate-y-1/2 '>
                                 {"Fyde".split('').map((item, index) => <motion.span
+                                    key={index}
                                     initial={{ y: '100%' }}
                                     animate={cards[3]}
                                     transition={{ ease: [0.83, 0, 0.17, 1], delay: index * .05 }}
