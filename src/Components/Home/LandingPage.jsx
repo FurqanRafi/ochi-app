@@ -9,7 +9,7 @@ const LandingPage = () => {
 
             {/* TEXT BLOCK */}
             <div className='textStructure Mycontainer1 mt-20 lg:mt-40'>
-                {["We Create", "Eye Opening", "Presentations"].map((item, index) => (
+                {["We Create", "Eye-Opening", "Presentations"].map((item, index) => (
                     <div key={index} className='masker'>
                         <div className='w-fit flex items-end'>
                             {index === 1 && (
@@ -17,7 +17,7 @@ const LandingPage = () => {
                                     initial={{ width: '0' }}
                                     animate={{ width: '8vw' }}
                                     transition={{ ease: [0.76, 0, 0.24, 1], duration: 1 }}
-                                    className='w-[35vw] sm:w-[25vw] md:w-[15vw] lg:w-[8.3vw] h-[10vw] sm:h-[8vw] md:h-[6vw] lg:h-[5vw] relative top-[-1.4vw] sm:top-[-1vw] md:top-[-0.6vw] lg:top-[-0.9vw] rounded-md'>
+                                    className=' h-[10vw]  md:h-[6vw] lg:h-[10vh] relative top-[-1.4vw]  md:top-[-0.6vw] lg:top-[-0.6vw] rounded-md'>
                                     <img
                                         className='rounded-md bg-center bg-cover w-full h-full object-cover'
                                         src="https://ochi.design/wp-content/uploads/2022/04/content-image01.jpg"
@@ -25,7 +25,7 @@ const LandingPage = () => {
                                     />
                                 </motion.div>
                             )}
-                            <h1 className=' uppercase text-[11vw] sm:text-[10vw] md:text-[8vw] lg:text-[7vw] leading-[9vw] sm:leading-[8.5vw] md:leading-[7vw] lg:leading-[6.5vw]  tracking-tighter font-bold font-[Founders Grotesk] '>
+                            <h1 className=' uppercase text-[12vw]  md:text-[8vw] lg:text-[7vw] leading-[12vw]  md:leading-[7vw] lg:leading-[6vw]  tracking-tighter font-bold font-[Founders Grotesk] '>
                                 {item}
                             </h1>
                         </div>
@@ -42,7 +42,7 @@ const LandingPage = () => {
                     <div className="flex flex-col md:flex-col  lg:flex-row items-start lg:items-center justify-between gap-7 pt-7 ">
 
                         {/* Text lines */}
-                        <div className="flex items-center gap-8 lg:gap-80">
+                        <div className="flex items-center gap-8 lg:gap-60">
                             {[
                                 "For public and private companies",
                                 "From the first pitch to IPO"
