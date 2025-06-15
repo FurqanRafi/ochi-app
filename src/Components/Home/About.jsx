@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className="bg-[#9bc43c]">
+    <div data-scroll data-scroll-speed="2" className="bg-[#9bc43c]">
       <div className="Mycontainer1">
         <div className='w-full text-black rounded-3xl rounded-tr-3xl py-10'>
           <h1 className='font-[Neue Montreal] text-[8vw] sm:text-[6vw] md:text-[4vw] leading-tight tracking-tight'>

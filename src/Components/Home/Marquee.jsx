@@ -5,9 +5,7 @@ import React from 'react';
 const Marquee = () => {
     return (
         <div
-            data-scroll
-            data-scroll-section
-            data-scroll-speed=".3"
+            data-scroll data-scroll-speed="2"
             className="w-full py-20 mt-[-100px] lg:mt-0 rounded-tl-3xl rounded-tr-3xl bg-[#004f46] overflow-hidden"
         >
             <div className="relative w-full h-[30vw]">

@@ -14,7 +14,7 @@ const Featured = () => {
         cards[index].start({ y: '100%' })
     }
     return (
-        <div className='w-full pt-20  '>
+        <div data-scroll data-scroll-speed="2" className='w-full pt-20  '>
             <div className=' w-full Mycontainer1  border-b-[1px] border-zinc-700 pb-20  '>
                 <h1 className='text-8xl font-[Neue Montreal] tracking-tight'>Featured Projects</h1>
             </div>

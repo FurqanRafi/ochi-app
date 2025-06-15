@@ -5,7 +5,7 @@ import { MdOutlineArrowOutward } from "react-icons/md";
 
 const LandingPage = () => {
     return (
-        <div data-scroll data-scroll-section data-scroll-speed='-.5' className='w-full h-screen pt-30'>
+        <div data-scroll data-scroll-speed="2" className='w-full h-screen pt-30'>
 
             {/* TEXT BLOCK */}
             <div className='textStructure Mycontainer1 mt-20 lg:mt-40'>
