@@ -14,16 +14,13 @@ import React from 'react'
 const Home = () => {
   return (
     <div>
-        <LandingPage />
-        <Marquee />
+        <LandingPage data-scroll data-scroll-section data-scroll-speed='-1' />
+        <Marquee data-scroll data-scroll-section data-scroll-speed='.3' />
         <About />
-        <Eyes />
+        <Eyes data-scroll data-scroll-speed='-.5' />
         <Featured />
         <Cards />
-        <Start />
-       
-        
-      
+        <Start data-scroll data-scroll-speed='-.7' />     
     </div>
   )
 }

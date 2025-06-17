@@ -2,8 +2,8 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div data-scroll data-scroll-speed=".3" className="bg-[#9bc43c]">
-      <div className="Mycontainer1">
+    <div  className=" bg-[#9bc43c] z-0">
+      <div className="Mycontainer1 ">
         <div className='w-full text-black rounded-3xl rounded-tr-3xl py-10'>
           <h1 className='font-[Neue Montreal] text-[8vw] sm:text-[6vw] md:text-[4vw] leading-tight tracking-tight'>
             Ochi is a strategic presentation agency for forward-thinking businesses that need to raise funds, sell products, explain complex ideas, and hire great people.
