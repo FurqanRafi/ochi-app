@@ -38,3 +38,24 @@ body {
   margin: auto;
   box-sizing: border-box;
 }
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animation-letter {
+  display: inline-block;
+  transform: translateY(0);
+  transition: transform 0.1s, opacity 0.1s;
+}
+
+.group:hover .animation-letter {
+  animation: slideDown 0.3s ease forwards;
+}

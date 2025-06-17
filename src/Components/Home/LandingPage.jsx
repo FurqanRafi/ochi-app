@@ -2,10 +2,11 @@
 import { motion } from 'framer-motion';
 import React from 'react';
 import { MdOutlineArrowOutward } from "react-icons/md";
+import Button from '../Button';
 
 const LandingPage = () => {
     return (
-        <div data-scroll data-scroll-speed="2" className='w-full h-screen pt-30'>
+        <div data-scroll data-scroll-speed=".8" className='w-full h-screen pt-30'>
 
             {/* TEXT BLOCK */}
             <div className='textStructure Mycontainer1 mt-20 lg:mt-40'>
@@ -54,23 +55,17 @@ const LandingPage = () => {
                         </div>
 
                         {/* Button block */}
-                        <div className="start flex items-center gap-5 pt-3 lg:pt-0">
-                            <div className="
-          px-4 py-2 border-[1px] border-zinc-500 
-          rounded-full uppercase text-sm md:text-md font-light
-        ">
-                                Start the Project
-                            </div>
-                            <div className="
-          flex items-center justify-center 
-          w-10 h-10 text-xl 
-          rounded-full border-[1px] border-zinc-500
-        ">
-                                <span className="rotate-180">
-                                    <MdOutlineArrowOutward />
-                                </span>
-                            </div>
+                        <div className="start flex items-center  gap-5 pt-3 lg:pt-0">
+                            <Button
+                                text="Start the Project"
+                                className="px-6 py-3 font-sans border-1 hover:bg-black  hover:text-white text-black rounded-full text-sm sm:text-md mt-6 cursor-pointer" 
+                                icon ={
+                                    <div className="bg-white w-2 h-2 ml-3  rounded-full"></div>
+                                }
+                            />
+                            
                         </div>
+
                     </div>
                 </div>
             </div>

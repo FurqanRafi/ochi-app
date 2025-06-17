@@ -2,6 +2,7 @@
 import { motion } from 'framer-motion'
 import { div } from 'framer-motion/client'
 import React, { useEffect, useState } from 'react'
+import Button from '../Button';
 
 const Start = () => {
 
@@ -21,7 +22,7 @@ const Start = () => {
 
     return (
         <div  className='eyes w-full h-screen overflow-hidden'>
-            <div data-scroll data-scroll-speed='-.7' className=' relative bg-[#adee52] text-zinc-900 rounded-2xl  w-full flex flex-col items-center justify-center '>
+            <div  className=' relative bg-[#adee52] text-zinc-900 rounded-2xl  w-full flex flex-col items-center justify-center '>
                 <div className='  pt-[8vw] pb-[8vw] flex flex-col items-center justify-center font-[`Founders_Grotesk`]'>
                     <h1 className=' text-[9vw] font-extrabold font-stretch-200% leading-none tracking-tight  '>Ready</h1>
                     <h1 className=' text-[9vw] font-extrabold font-stretch-200% leading-none tracking-tight  '>to Start </h1>
@@ -44,9 +45,13 @@ const Start = () => {
                     </div>
                 </div>
                 <div className='flex flex-col justify-center items-center -mt-10'>
-                    <button className='border-2 px-7 flex items-center gap-7 font-light py-4 rounded-full text-xl leading-none tracking-tight'>Start the Project <div className='bg-zinc-900 w-2 h-2 rounded-full'></div></button>
+                    <Button className='border-2 px-7 flex items-center  font-light py-4 rounded-full text-xl leading-none tracking-tight  cursor-pointer'text='Start the Project' 
+                    icon={<div className='bg-zinc-900 w-2 h-2 rounded-full ml-7'></div>}/>
                     <h1 className='text-2xl font-light mt-3 mb-3'>Or</h1>
-                    <button className=' mb-[10vw] border-2 px-7 flex items-center gap-7 font-light py-4 rounded-full text-xl leading-none tracking-tight'>Hello@Ochi.Design <div className='bg-zinc-900 w-2 h-2 rounded-full'></div></button></div>
+                    <Button className=' mb-[10vw] border-2 px-7 flex items-center  font-light py-4 rounded-full text-xl leading-none tracking-tight cursor-pointer'
+                    text='Hello@Ochi.Design' 
+                    icon={<div className='bg-zinc-900 w-2 h-2 rounded-full ml-7'></div>}/>
+                    </div>
             </div>
         </div>
     )
